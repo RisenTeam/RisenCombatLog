@@ -1,0 +1,16 @@
+name: CombatLog
+authors: [Kuosai]
+version: 1.0
+main: net.risenteam.combatlog.Core
+website: https://risenteam.net
+description: A simple plugin that denies players to log out while in combat.
+
+commands:
+  combatlog:
+    description: CombatLog command
+    usage: /combatlog
+    aliases: [cl]
+    permission: combatlog.command
+    permission-message: You do not have permission to use this command.
+    default: true
+    executor: net.risenteam.combatlog.commands.CombatLogCommand
