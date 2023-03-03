@@ -30,4 +30,8 @@ public class Core extends JavaPlugin {
     public LanguageManager getLanguageManager() {
         return languageManager;
     }
+
+    public CombatLogManager getCombatLogManager() {
+        return combatLogManager;
+    }
 }
