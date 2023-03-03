@@ -1,0 +1,9 @@
+combatTime: 15
+dropInventory: true
+dropExperience: true
+deathCommand: [
+                "say %player% has disconnected while in combat!",
+                "ban %player% Combat Logging"
+]
+
+language: "en_US"
