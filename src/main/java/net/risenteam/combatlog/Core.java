@@ -10,8 +10,8 @@ public class Core extends JavaPlugin {
 
     public Core(){
         this.saveDefaultConfig();
-        this.saveResource("en_US.yml", false);
-        this.saveResource("fr_FR.yml", false);
+        this.saveResource("lang/en_US.yml", false);
+        this.saveResource("lang/fr_FR.yml", false);
         this.languageManager = new LanguageManager(this);
     }
 
