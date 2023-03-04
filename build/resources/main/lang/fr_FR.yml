@@ -1,3 +1,7 @@
-"prefix": "[CombatLog]"
-"entering_fight": "Vous venez de commencé un combat"
-"no-longer-in-combat": "Vous n'êtes plus en combat"
+prefix: "[CombatLog]"
+entering_fight: "Vous venez de commencé un combat"
+no-longer-in-combat: "Vous n'êtes plus en combat"
+
+configReload: "Configuration rechargée"
+noPermission: "Vous n'avez pas la permission d'utiliser cette commande"
+notPlayer: "Vous devez être un joueur pour utiliser cette commande"

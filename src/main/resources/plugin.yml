@@ -1,6 +1,6 @@
 name: CombatLog
 authors: [Kuosai]
-version: 1.0
+version: 1.0.1
 main: net.risenteam.combatlog.Core
 website: https://risenteam.net
 description: A simple plugin that denies players to log out while in combat.
