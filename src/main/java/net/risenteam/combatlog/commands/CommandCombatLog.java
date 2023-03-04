@@ -11,6 +11,8 @@ public class CommandCombatLog extends RisenCommand {
     public CommandCombatLog(Core core, String string) {
         super(string);
         this.core = core;
+        this.setPermission("combatlog.command.combatlog");
+        this.setPermissionMessage(ChatColor.RED + "You don't have permission to use this command!");
     }
 
     @Override
