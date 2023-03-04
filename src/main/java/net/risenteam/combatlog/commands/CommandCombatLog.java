@@ -10,4 +10,5 @@ public class CommandCombatLog implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         return false;
     }
+
 }
